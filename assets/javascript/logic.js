@@ -77,4 +77,7 @@
   	}
   	// setInterval(updateTrain, 1000*60)
   	setInterval(updateTime, 1000)
+  	setInterval(function () {
+  		window.location.reload ()
+  	}, 1000* 60)
  })
